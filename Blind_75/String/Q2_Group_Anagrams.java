@@ -11,7 +11,7 @@ public class Q2_Group_Anagrams {
 
     class Solution {
 
-        private List<List<String>> groupsAnagrams(String[] input) {
+        private List<List<String>> groupAnagrams1(String[] input) {
             if (input == null) return new ArrayList<>();
 
             HashMap<String, List<String>> map = new HashMap<>();
@@ -54,7 +54,7 @@ public class Q2_Group_Anagrams {
         }
 
         public List<List<String>> groupAnagrams(String[] strs) {
-            return groupsAnagrams(strs);
+            return groupAnagrams1(strs);
         }
     }
 
