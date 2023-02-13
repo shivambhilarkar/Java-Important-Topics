@@ -34,20 +34,7 @@ public class Q1_Top_K_frequent_element {
         }
 
 
-        public int[] getTopKFrequent1(int[] nums, int k){
-            if(nums == null) return new int[]{};
 
-            HashMap<Integer,Integer> fmap = new HashMap<>();
-            Arrays.stream(nums).map(num -> {
-                return fmap.put(num, fmap.getOrDefault(num, 0) + 1);
-            } );
-
-            /*
-            Map<String, Long> counts = yourStringStream
-                    .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-            */
-            return new int[]{};
-        }
 
 
         public int[] topKFrequent(int[] nums, int k) {
