@@ -1,4 +1,4 @@
-package Tutorial;
+package Bit_Manipulation;
 
 import java.util.Scanner;
 
